@@ -1,0 +1,30 @@
+/* ====================
+	Variables
+==================== */
+
+:root {
+
+	/* colors */
+
+	--color-red: #FD6D8E;
+	--color-green: #2ecc71;
+	--color-green-sea: #1abc9c;
+	--color-blue: #0DC7F8;
+	--color-yellow: #F8B83C;
+	--color-purple: #575CBA;
+
+	/* app colors */
+
+	--color-bg-primary: var(--color-purple);
+	--color-bg-secondary: rgba(255, 255, 255, .45);
+
+	--color-text-primary: #fff;
+	--color-text-secondary: rgba(255, 255, 255, .5);
+
+	--color-border-primary: rgba(255, 255, 255, .15);
+
+	/* font */
+
+	--font-primary: 'Montserrat', sans-serif;
+
+}

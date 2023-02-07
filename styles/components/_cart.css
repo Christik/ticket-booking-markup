@@ -1,0 +1,41 @@
+/* ====================
+	Order
+==================== */
+
+.order-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1em 0;
+	border-top: solid 1px var(--color-border-primary);
+	font-size: .7rem;
+	color: var(--color-text-secondary);
+}
+
+.order-item--total {
+	font-weight: 500;
+}
+
+.order-item--total .order-item__title {
+	color: var(--color-text-primary);
+}
+
+.order-item--total .order-item__price {
+	color: var(--color-yellow);
+}
+
+/* ====================
+	Cart
+==================== */
+
+.cart {
+	width: 100%;
+	max-width: 18rem;
+	padding: 1rem 1rem .5rem;
+	border-radius: .5rem;
+	border: solid 1px var(--color-border-primary);
+}
+
+.cart__order-list {
+	margin-top: 1.25rem;
+}

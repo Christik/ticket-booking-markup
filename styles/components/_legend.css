@@ -1,0 +1,29 @@
+/* ====================
+	Legend
+==================== */
+
+.legend {
+	display: flex;
+	align-items: center;
+}
+
+.legend__icon {
+	position: relative;
+	margin-right: .5rem;
+}
+
+.legend__caption {
+	white-space: nowrap;
+	font-size: .7rem;
+	color: var(--color-text-secondary);
+}
+
+/* ====================
+	Legend Group
+==================== */
+
+.legend-group {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .75rem 1rem;
+}

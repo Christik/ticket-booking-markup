@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Бронирование билетов</title>
+  <link rel="stylesheet" href="./styles/styles.css" />
+</head>
+<body>
+
+<div class="app">
+  <h1 class="app__title">
+      Бронирование билетов
+  </h1>
+
+  <div class="app__content">
+      <section class="app__concert-hall concert-hall">
+          <div class="concert-hall__scene scene">
+              <p class="scene__title">Сцена</p>
+          </div>
+
+          <div class="seats">
+              <ul class="seats__row">
+                  <li class="seats__cell"></li>
+                  <li class="seats__cell"></li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--high-price seat--selected">
+                        3
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--high-price seat--selected">
+                        4
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--high-price seat--selected">
+                        5
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--high-price seat--reserved">
+                        6
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--high-price">
+                        7
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--high-price">
+                        8
+                      </button>
+                  </li>
+                  <li class="seats__cell"></li>
+                  <li class="seats__cell"></li>
+              </ul><!--seats__row-->
+
+              <ul class="seats__row">
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        1
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price seat--reserved">
+                        2
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price seat--reserved">
+                        3
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price seat--reserved">
+                        4
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        5
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price seat--reserved">
+                        6
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price seat--reserved">
+                        7
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price seat--reserved">
+                        8
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        9
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        10
+                      </button>
+                  </li>
+              </ul><!--.seats__row-->
+
+              <ul class="seats__row">
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        1
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        2
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        3
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price seat--reserved">
+                        4
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price seat--reserved">
+                        5
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price seat--reserved">
+                        6
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price seat--reserved">
+                        7
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        8
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        9
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        10
+                      </button>
+                  </li>
+              </ul><!--.seats__row-->
+
+              <ul class="seats__row">
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        1
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        2
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price seat--reserved">
+                        3
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price seat--reserved">
+                        4
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price seat--reserved">
+                        5
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        6
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        7
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        8
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        9
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--medium-price">
+                        10
+                      </button>
+                  </li>
+              </ul><!--.seats__row-->
+
+              <ul class="seats__row">
+                  <li class="seats__cell"></li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        2
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        3
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        4
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        5
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        6
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        7
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        8
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        9
+                      </button>
+                  </li>
+                  <li class="seats__cell"></li>
+              </ul><!--.seats__row-->
+
+              <ul class="seats__row">
+                  <li class="seats__cell"></li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        2
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        3
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        4
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        5
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        6
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        7
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        8
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        9
+                      </button>
+                  </li>
+                  <li class="seats__cell"></li>
+              </ul><!--.seats__row-->
+
+              <ul class="seats__row">
+                  <li class="seats__cell"></li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        2
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        3
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        4
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        5
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        6
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        7
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price seat--reserved">
+                        8
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        9
+                      </button>
+                  </li>
+                  <li class="seats__cell"></li>
+              </ul><!--.seats__row-->
+
+              <ul class="seats__row">
+                  <li class="seats__cell"></li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        2
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        3
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        4
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        5
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        6
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        7
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        8
+                      </button>
+                  </li>
+                  <li class="seats__cell">
+                      <button type="button" class="seat seat--low-price">
+                        9
+                      </button>
+                  </li>
+                  <li class="seats__cell"></li>
+              </ul><!--.seats__row-->
+          </div><!--seats-->
+      </section><!--.concert-hall-->
+
+      <div class="app__cart cart">
+          <ul class="cart__legends legend-group">
+              <li class="legend">
+                  <span class="legend__icon seat seat--dot seat--low-price"></span>
+                  <span class="legend__caption">1 000 ₽</span>
+              </li>
+              <li class="legend">
+                  <span class="legend__icon seat seat--dot seat--medium-price"></span>
+                  <span class="legend__caption">1 500 ₽</span>
+              </li>
+              <li class="legend">
+                  <span class="legend__icon seat seat--dot seat--high-price"></span>
+                  <span class="legend__caption">3 000 ₽</span>
+              </li>
+              <li class="legend">
+                  <span class="legend__icon seat seat--reserved"></span>
+                  <span class="legend__caption">Место занято</span>
+              </li>
+              <li class="legend">
+                  <span class="legend__icon seat seat--dot seat--selected"></span>
+                  <span class="legend__caption">Ваше место</span>
+              </li>
+          </ul><!--.legend-group-->
+
+          <ul class="cart__order-list">
+            <li class="order-item">
+              <span class="order-item__title">Ряд 1, место 3</span>
+              <span class="order-item__price">3 000 ₽</span>
+            </li>
+
+            <li class="order-item">
+              <span class="order-item__title">Ряд 1, место 3</span>
+              <span class="order-item__price">3 000 ₽</span>
+            </li>
+
+            <li class="order-item">
+              <span class="order-item__title">Ряд 1, место 3</span>
+              <span class="order-item__price">3 000 ₽</span>
+            </li>
+          </ul>
+
+          <p class="order-item order-item--total">
+              <span class="order-item__title">Всего:</span>
+              <span class="order-item__price">9 000 ₽</span>
+          </p><!--.order-->
+      </div><!--.cart-->
+  </div><!--.app__content-->
+</div><!--.app-->
+
+</body>
+</html>

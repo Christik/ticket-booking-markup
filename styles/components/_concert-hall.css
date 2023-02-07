@@ -1,0 +1,42 @@
+/* ====================
+	Scene
+==================== */
+
+.scene {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.scene:before,
+.scene:after {
+		content: '';
+		flex-grow: 1;
+		display: block;
+		height: 2px;
+		background: var(--color-border-primary);
+}
+
+.scene__title {
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 1.5rem;
+	padding: 0 1.5em;
+	border-radius: .75rem;
+	border: solid 2px var(--color-border-primary);
+	color: var(--color-text-secondary);
+	font-size: .6rem;
+	font-weight: 600;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+}
+
+/* ====================
+	Concert Hall
+==================== */
+
+.concert-hall__scene {
+	margin-bottom: 1rem;
+}
